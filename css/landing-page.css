@@ -67,7 +67,7 @@ h6 {
 }
 
 #search {
-    width: 60%;
+    min-width: 60%;
     font-size: 32px;
     height: 2em;
 }
