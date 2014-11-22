@@ -1,0 +1,32 @@
+{
+  "name": "onwhen",
+  "version": "0.1.0",
+  "homepage": "https://github.com/OnWhen/onwhen.github.io",
+  "authors": [
+    "David Beitey <david@davidjb.com>"
+  ],
+  "description": "Every event, everywhere.",
+  "main": "css/main.css",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "events",
+    "data",
+    "calendar",
+    "feeds"
+  ],
+  "license": "GPL",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "font-awesome": "~4.2.0"
+  }
+}
