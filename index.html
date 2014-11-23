@@ -297,6 +297,33 @@
                 interested in.  Throw out the newspaper and stop hitting refresh on
                 your favourite band or cultral website.  Let's do this!
             </p>
+            <form action="/" class="form-inline intro-form form-group-lg">
+                <table style="padding: 10px; font-size: 15 px;">
+                    <tr><td>* First Name:&#160;&#160;</td><td><input class="form-control" type="text" id="FirstName" ></td></tr>
+                    <tr><td>* Post Code:&#160;&#160;</td><td><input class="form-control" type="text" id="Postcode" ></td></tr>
+                    <tr><td>* Email Address:&#160;&#160;</td><td><input class="form-control" type="text" id="E-mail" ></td></tr>
+                    <tr><td>* Confirm Email Address:&#160;&#160;</td><td><input class="form-control" type="text" id="ConfirmE-mail" ></td></tr>
+                    <tr><td>* Password:&#160;&#160;</td><td><input class="form-control" type="text" id="passWord" ></td></tr>
+                    <tr><td>* Confirm Password:&#160;&#160;</td><td><input class="form-control" type="text" id="ConfirmPassWord" ></td></tr>
+                </table>
+        <p style="font-size: 12px">
+            * Required inputs
+        </p>
+                {{#link-to 'onwhen.events' class="form-control btn btn-danger"}}Submit{{/link-to}}
+            </form>
+            <h3>Form Fields: Why do we need these details?</h3>
+            <p>
+                <b>'First Name'</b></br>This is used to personalise any communications with you. For your privacy, we do not collect your surname details.
+            </p>
+            <p>
+                <b>'Post Code'</b></br> This is used to determine what events are in your particular area. Again, for your privacy, we don't need to store your home address.
+            </p>
+            <p>
+                <b>'Email Address'</b></br> Your email address is used to notify you of events, that you may wish to attend, in your area.
+            </p>
+            <p>
+                <b>'Password'</b></br> A password allows you to login our web site, in order to change your preferences and settings for events.
+            </p>
             </div>
         </div>
     </div>
